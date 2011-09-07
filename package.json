@@ -1,0 +1,8 @@
+{
+    "name": "coerce"
+  , "version": "0.5.0"
+  , "repository": "git://github.com/deanmao/coerce"
+  , "devDependencies": {
+    "expresso": ">= 0.8.1"
+  }
+}
