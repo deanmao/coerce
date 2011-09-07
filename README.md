@@ -11,8 +11,17 @@ python library
 
 ## Usage
 
+  If you use node:
+
     var c = require('coerce');
-    var easyInt = c.strip().int();
+    var easyInt = c().strip().int();
     easyInt.coerce("   123   ") ---> 123
     easyInt.default(456).coerce("asdf") ---> 456
 
+  If you use a web browser:
+
+    <script src="coerce.js"></script>
+    <script>
+      var c = coerce().strip().int();
+      var myInteger = c.coerce("   123   ");
+    </script>
