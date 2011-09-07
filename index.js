@@ -1,1 +1,1 @@
-module.exports = require('./lib/purify');
+module.exports = require('./lib/coerce');
